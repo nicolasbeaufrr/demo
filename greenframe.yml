@@ -1,0 +1,4 @@
+baseURL: https://www.google.com/
+scenarios:
+  - path: ./scenario.js
+    name: My first scenario
