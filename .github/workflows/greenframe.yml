@@ -10,6 +10,6 @@ jobs:
       - run: curl https://assets.greenframe.io/install.sh | bash
       # Start your application here
       # - name: scenario
-      - run: greenframe analyze scenario.js https://www.google.com/
+      - run: greenframe analyze scenario.js https://www.google.com/ --commitId "SHA1_COMMIT_ID"
         env:
           GREENFRAME_SECRET_TOKEN: fd63705e31f40925032aedbc02ff1f231c207736
