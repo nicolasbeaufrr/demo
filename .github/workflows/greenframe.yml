@@ -9,8 +9,7 @@ jobs:
           fetch-depth: 0 # Fetch all the git history
       - run: curl https://assets.greenframe.io/install.sh | bash
       # Start your application here
-      - name: scenario
-        run: ./././scenario.js
-      - run: greenframe analyze
+      # - name: scenario
+      - run: greenframe --help
         env:
           GREENFRAME_SECRET_TOKEN: fd63705e31f40925032aedbc02ff1f231c207736
