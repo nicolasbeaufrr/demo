@@ -8,7 +8,7 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all the git history
       - run: curl https://assets.greenframe.io/install.sh | bash
-      - run: ./scenario.js
+      - run: ./././scenario.js
       # Start your application here
       - run: greenframe analyze
         env:
