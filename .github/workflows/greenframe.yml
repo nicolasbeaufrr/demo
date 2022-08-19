@@ -9,7 +9,7 @@ jobs:
           fetch-depth: 0 # Fetch all the git history
       - run: curl https://assets.greenframe.io/install.sh | bash
       # Start your application here
-      # - name: scenario
-      - run: greenframe analyze scenario.js https://www.google.com/ --commitId "SHA1_COMMIT_ID"
+      - run: greenframe analyze scenario.js https://www.google.com/ --help
         env:
           GREENFRAME_SECRET_TOKEN: fd63705e31f40925032aedbc02ff1f231c207736
+          
