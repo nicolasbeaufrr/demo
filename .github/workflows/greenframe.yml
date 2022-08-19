@@ -1,10 +1,5 @@
 name: Greenframe Analysis
 on: [push]
-baseURL: https://www.google.com/
-projectName: Demo
-scenarios: 
-    - path: ./scenario.js
-      name : My first scenario
 jobs:
   greenframeci:
     runs-on: ubuntu-latest
